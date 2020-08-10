@@ -146,8 +146,8 @@ add_shortcode( 'av_script_check', 'av_cookie_optin_shortcode' );
 if (!(class_exists("Puc_v4_Factory"))) {
     require 'plugin-update-checker/plugin-update-checker.php';
   }
-//  $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-  //    'https://github.com/84GHz/achtvier-blocks-optimized/',
-   //   __FILE__,
-     // 'achtvier-blocks-optimized'
-  //);
+  $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+      'https://github.com/84GHz/achtvier-blocks-optimized/',
+      __FILE__,
+      'achtvier-cookie-optin'
+  );
