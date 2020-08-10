@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:     Achtvier Cookie Optin
- * Plugin URI:      PLUGIN SITE HERE
- * Description:     PLUGIN DESCRIPTION HERE
- * Author:          YOUR NAME HERE
- * Author URI:      YOUR SITE HERE
+ * Plugin URI:      Cookie Popup (2020 August)
+ * Description:     Cookie Popup 
+ * Author:          84GHz
+ * Author URI:      https://84ghz.de
  * Text Domain:     achtvier-cookie-optin
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.11.0
  *
  * @package         Achtvier_Cookie_Optin
  */
