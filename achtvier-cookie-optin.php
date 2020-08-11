@@ -7,7 +7,7 @@
  * Author URI:      https://84ghz.de
  * Text Domain:     achtvier-cookie-optin
  * Domain Path:     /languages
- * Version:         0.15.0
+ * Version:         0.16.0
  *
  * @package         Achtvier_Cookie_Optin
  */
@@ -108,7 +108,7 @@ function av_cookie_banner() {
   $output .= '<form>';
   $output .= '<div class="av-cookie-banner-boxes">';
   $output .= '<label></span><input type="checkbox" name="check-ess" id="av-cookie-ess" value="1" checked disabled>Essentiell<span class="checkmark alon"></label> ';
-  $output .= '<label><input type="checkbox" name="check-trk" id="av-cookie-trak" value="1" >Tracking<span class="checkmark"></span></label> ';
+  $output .= '<label><input type="checkbox" name="check-trk" id="av-cookie-trak" value="1" >Statistik<span class="checkmark"></span></label> ';
   $output .= '</div>';
   $output .= '<div class="av-cookie-button-outer-wrapper">';
   $output .= '<div class="av-cookie-button-wrapper">';
