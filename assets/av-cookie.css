@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     transition: all 1s linear;
+    z-index: 500;
 }
 .av-cookie-banner {
     background-color: #fff;
