@@ -3,7 +3,7 @@
 add_action('admin_menu', 'av_cookie_optin_admin_menu');
 
 function av_cookie_optin_admin_menu() {
-    add_menu_page( '84GHz Cookie Opt-In', '84GHz Cookie Opt In', 'manage_options', 'achtvier-cookie-optin', 'av_cookie_optin_admin_page' );
+    add_options_page( '84GHz Cookie Opt-In', '84GHz Cookie Opt In', 'manage_options', 'achtvier-cookie-optin', 'av_cookie_optin_admin_page' );
 	add_action( 'admin_init', 'register_achtvier_cookie_optin_settings' );
 }
 function register_achtvier_cookie_optin_settings() {

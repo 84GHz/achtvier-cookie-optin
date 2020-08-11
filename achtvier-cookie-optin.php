@@ -7,7 +7,7 @@
  * Author URI:      https://84ghz.de
  * Text Domain:     achtvier-cookie-optin
  * Domain Path:     /languages
- * Version:         0.11.0
+ * Version:         0.12.0
  *
  * @package         Achtvier_Cookie_Optin
  */
@@ -81,7 +81,9 @@ function av_remove_trackers () {
 
 
 require_once(dirname(__FILE__) . "/inc/adminmenu.php");
-
+/**
+ * Renders a cookie baner with settings
+ */
 function av_cookie_banner() {
  if(!isset($_COOKIE['av_cookie_optin'])) {
     $impressum_link = "";
