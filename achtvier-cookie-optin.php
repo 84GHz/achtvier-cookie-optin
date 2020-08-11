@@ -149,7 +149,7 @@ if (!(class_exists("Puc_v4_Factory"))) {
     require 'plugin-update-checker/plugin-update-checker.php';
   }
   $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-      'https://github.com/84GHz/achtvier-blocks-optimized/',
+      'https://github.com/84GHz/achtvier-cookie-optin/',
       __FILE__,
       'achtvier-cookie-optin'
   );
