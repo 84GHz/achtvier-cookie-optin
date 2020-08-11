@@ -7,7 +7,7 @@
  * Author URI:      https://84ghz.de
  * Text Domain:     achtvier-cookie-optin
  * Domain Path:     /languages
- * Version:         0.13.0
+ * Version:         0.14.0
  *
  * @package         Achtvier_Cookie_Optin
  */
